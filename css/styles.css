@@ -955,3 +955,6 @@ h2{
     letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
+.label-link{
+    color: var(--primaryColorIris);
+}
