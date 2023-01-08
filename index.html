@@ -359,15 +359,17 @@
 					</ul>
 				</div>
 				<div class="input-wrapper">
-					<label class="input-label light" for="user-email">Subscribe</label>
-					<input class="input-text email" type="email" name="user-email" id="user-email" placeholder="E-mail" />
+					<p class="input-label light">Subscribe</p>
+					<form class="form-footer">
+						<input class="input-text email" type="email" name="user-email" id="user-email" placeholder="E-mail" />
+						<button type="submit" class="btn-subscribe">
+							<span class="submit-text">Subscribe</span>
+							<svg class="icon small-icon icon-send">
+								<use href="./images/icons.svg#icon-Frame-3" width="24" height="24"></use>
+							</svg>
+						</button>
+					</form>
 				</div>
-				<button type="submit" class="btn-subscribe">
-					<span class="submit-text">Subscribe</span>
-					<svg class="icon small-icon icon-send">
-						<use href="./images/icons.svg#icon-paper-plane" width="24" height="24"></use>
-					</svg>
-				</button>
 			</div>
 		</footer>
 		<div class="backdrop is-hidden" data-modal>
@@ -444,10 +446,10 @@
 						<div class="input-wrapper user-comment">
 							<label class="input-label" for="user-comment">Comment</label>
 							<textarea
-								class="input-text user-comment"
+								class="input-text user-comment comment"
 								name="user-comment"
 								id="user-comment"
-								rows="7"
+								
 								placeholder="Text input"
 							></textarea>
 						</div>
